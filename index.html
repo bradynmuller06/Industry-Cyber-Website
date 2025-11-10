@@ -22,6 +22,38 @@
             padding: 20px 0;
         }
 
+        /* Navigation Styles */
+        nav {
+            background-color: #388E3C;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1rem;
+            padding: 10px 15px;
+            display: block;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: #2E7D32;
+            border-radius: 5px;
+        }
+
         main {
             padding: 20px;
             max-width: 900px;
@@ -53,6 +85,11 @@
         footer {
             font-size: 0.9rem;
         }
+
+        /* Smooth Scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
     </style>
 </head>
 <body>
@@ -62,53 +99,68 @@
         <p>Hard Work | Adapting | Perseverance</p>
     </header>
 
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#hardworking">Hard Working</a></li>
+            <li><a href="#adapting">Adapting</a></li>
+            <li><a href="#persevering">Persevering</a></li>
+        </ul>
+    </nav>
+
     <!-- Main Content Section -->
     <main>
-        <h2>Hard Working</h2>
-        <p>
-            Hard work is the foundation of progress and growth. To me, being hard working means 
-            showing up every day ready to give consistent effort, even when motivation is low. 
-            It’s about developing discipline, pushing through challenges, and staying committed 
-            to both short-term goals and long-term dreams. 
-        </p>
-        <p>
-            I value hard work because it builds character and teaches responsibility. 
-            It also allows me to take pride in the results of my dedication, 
-            knowing that nothing worthwhile comes without effort.
-        </p>
-        <img src="https://images.unsplash.com/photo-1507537297725-24a1c029d3ca" alt="Hard Work Image">
+        <section id="hardworking">
+            <h2>Hard Working</h2>
+            <p>
+                Hard work is the foundation of progress and growth. To me, being hard working means 
+                showing up every day ready to give consistent effort, even when motivation is low. 
+                It’s about developing discipline, pushing through challenges, and staying committed 
+                to both short-term goals and long-term dreams. 
+            </p>
+            <p>
+                I value hard work because it builds character and teaches responsibility. 
+                It also allows me to take pride in the results of my dedication, 
+                knowing that nothing worthwhile comes without effort.
+            </p>
+            <img src="https://images.unsplash.com/photo-1507537297725-24a1c029d3ca" alt="Hard Work Image">
+        </section>
 
-        <h2>Adapting</h2>
-        <p>
-            Adapting means being flexible and open to change. Life rarely goes exactly 
-            as planned, and the ability to adjust when unexpected things happen is 
-            one of the most valuable skills to have. Whether it’s learning a new 
-            skill, facing a sudden challenge, or working with new people, adapting 
-            allows me to grow and move forward instead of being held back.
-        </p>
-        <p>
-            I believe that adaptability shows resilience and creativity. It means 
-            finding solutions instead of getting stuck on problems. By embracing 
-            change rather than resisting it, I can discover new opportunities and 
-            keep a positive outlook even in tough times.
-        </p>
-        <img src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29" alt="Adapting Image">
+        <section id="adapting">
+            <h2>Adapting</h2>
+            <p>
+                Adapting means being flexible and open to change. Life rarely goes exactly 
+                as planned, and the ability to adjust when unexpected things happen is 
+                one of the most valuable skills to have. Whether it’s learning a new 
+                skill, facing a sudden challenge, or working with new people, adapting 
+                allows me to grow and move forward instead of being held back.
+            </p>
+            <p>
+                I believe that adaptability shows resilience and creativity. It means 
+                finding solutions instead of getting stuck on problems. By embracing 
+                change rather than resisting it, I can discover new opportunities and 
+                keep a positive outlook even in tough times.
+            </p>
+            <img src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29" alt="Adapting Image">
+        </section>
 
-        <h2>Persevering</h2>
-        <p>
-            Perseverance is the ability to keep going despite obstacles, failures, 
-            or setbacks. To me, it’s about refusing to quit when things get hard 
-            and pushing through challenges with determination. Perseverance is not 
-            about being perfect — it’s about showing courage and persistence even 
-            when the path forward is unclear.
-        </p>
-        <p>
-            I value perseverance because success is rarely immediate. Achievements 
-            often come after many attempts, struggles, and lessons learned. Staying 
-            determined in the face of difficulty proves that giving up is never an option, 
-            and every step forward — no matter how small — matters.
-        </p>
-        <img src="https://images.unsplash.com/photo-1506784983877-45594efa4cbe" alt="Perseverance Image">
+        <section id="persevering">
+            <h2>Persevering</h2>
+            <p>
+                Perseverance is the ability to keep going despite obstacles, failures, 
+                or setbacks. To me, it’s about refusing to quit when things get hard 
+                and pushing through challenges with determination. Perseverance is not 
+                about being perfect — it’s about showing courage and persistence even 
+                when the path forward is unclear.
+            </p>
+            <p>
+                I value perseverance because success is rarely immediate. Achievements 
+                often come after many attempts, struggles, and lessons learned. Staying 
+                determined in the face of difficulty proves that giving up is never an option, 
+                and every step forward — no matter how small — matters.
+            </p>
+            <img src="https://images.unsplash.com/photo-1506784983877-45594efa4cbe" alt="Perseverance Image">
+        </section>
     </main>
 
     <!-- Footer Section -->
@@ -117,3 +169,4 @@
     </footer>
 </body>
 </html>
+
